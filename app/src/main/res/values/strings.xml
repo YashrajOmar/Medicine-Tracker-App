@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Medical</string>
+    <string name="attention">Attention</string>
+    <string name="back_button">Back</string>
+    <string name="delete">Delete</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no_item_description">Oops!\nNo items in the medical list.\nTap + to add.</string>
+    <string name="edit_item_title">Edit Item</string>
+    <string name="item">Item</string>
+    <string name="item_detail_title">Item Details</string>
+    <string name="item_entry_title">Add Item</string>
+    <string name="no">No</string>
+    <string name="in_stock">%d in stock</string>
+    <string name="quantity_req">Quantity in Stock*</string>
+    <string name="save_action">Save</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="required_fields">*required fields</string>
+    <string name="date">Date</string>
+    <string name="doctor">Doctor</string>
+    <string name="medicine">Medicine</string>
+    <string name="test">Test</string>
+    <string name="editor">Editor</string>
+    <string name="edited_by">Edited by %1$s</string>
+    <string name="login_page">login Page</string>
+</resources>
