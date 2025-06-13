@@ -1,15 +1,46 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+#*.iml
+#.gradle
+#/local.properties
+#/.idea/caches
+#/.idea/libraries
+#/.idea/modules.xml
+#/.idea/workspace.xml
+#/.idea/navEditor.xml
+#/.idea/assetWizardSettings.xml
+#.DS_Store
+#/build
+#/captures
+#.externalNativeBuild
+#.cxx
+#local.properties
+# ===========================
+# Android Studio .gitignore
+# ===========================
+
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration
 local.properties
+
+# Android Studio files
+.idea/
+*.iml
+
+# Native build
+.cxx/
+.externalNativeBuild/
+
+# Mac OS files
+.DS_Store
+
+# Captures (screenshots, recordings)
+captures/
+
+# Keystore files (important for signing)
+*.jks
+
+# Logs
+*.log
