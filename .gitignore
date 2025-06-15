@@ -16,11 +16,12 @@
 # ===========================
 # Android Studio .gitignore
 # ===========================
-
 # Gradle files
 .gradle/
 build/
 app/build/
+*.gradle
+!gradle-wrapper.properties
 
 # Local configuration
 local.properties
@@ -41,6 +42,23 @@ captures/
 
 # Keystore files (important for signing)
 *.jks
+*.keystore
 
 # Logs
 *.log
+
+# Google Services (Firebase)
+google-services.json
+
+# Crashlytics / Fabric (if used)
+fabric.properties
+
+# Node / npm (if RN or hybrid)
+node_modules/
+
+# Backup files
+*.bak
+*.swp
+
+# VS Code settings (if you use VSCode sometimes)
+.vscode/
